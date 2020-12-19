@@ -63,7 +63,7 @@ assert.doesNotThrow
 
 ```js
 assert.operator(1, '<', 2)
-assert.closeTo(actual, expected)
+assert.closeTo(actual, expected, delta)
 ```
 
 See: [Assert API](http://chaijs.com/api/assert/) _(chaijs.com)_
